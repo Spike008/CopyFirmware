@@ -30,4 +30,9 @@
 * .gitignore-Code aus https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 * Dateien gestaged und commited
 
+## Basisfunktionalität in neuem Projekt implementieren
+
+* Projekt `BasicFunctions` angelegt mit `dotnet new classlib`
+* Referenz zu ConsoleApp mit `dotnet add reference ..\BasicFunctions
+`
 
