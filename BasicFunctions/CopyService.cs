@@ -10,7 +10,7 @@ namespace BasicFunctions
         /// <summary>
         /// lädt MT-Mapping-Datei
         /// </summary>
-        public Dictionary<string, string> LoadMtMapping()
+        public static Dictionary<string, string> LoadMtMapping()
         {
             try
             {
