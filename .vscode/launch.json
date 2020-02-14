@@ -13,7 +13,7 @@
             "program": "${workspaceFolder}/ConsoleApp/bin/Debug/netcoreapp3.1/Console.dll",
             "args": [],
             "cwd": "${workspaceFolder}/ConsoleApp",
-            "console": "internalConsole",
+            "console": "externalTerminal",
             "stopAtEntry": false
         },
         {
