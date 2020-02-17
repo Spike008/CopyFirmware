@@ -40,3 +40,8 @@
 - Nuget-Packet `System.Text.Json` installiert --> `dotnet add package <paket>`
 - Serialisierungs-Methode aus o.g. Paket benutzt und Exception Handling hinzugefügt
 - .gitignore für \*.upx-ignore erweitert
+
+## Github account erstellt und Projekt gepushed
+
+- command für local remote Verknüpfung: `git remote add origin https://github.com/Spike008/CopyFirmware.git`
+- commad push: `git push -u origin master` (Login erforderlich)
