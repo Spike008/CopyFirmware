@@ -46,3 +46,8 @@
 - command für local remote Verknüpfung: `git remote add origin https://github.com/Spike008/CopyFirmware.git`
 - commad push: `git push -u origin master` (Login erforderlich)
 - Connecting to GitHub with SSH: `https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh`
+
+## ConsoleApp erweitert
+
+- Mapping- und Kopierfunktion hinzugefügt
+- Fehlerbehandlung fehlt noch

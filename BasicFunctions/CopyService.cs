@@ -23,5 +23,52 @@ namespace BasicFunctions
             }
         }
 
+        public static void CopyFirmwareFiles(
+            List<string> files,
+            Dictionary<string, string> mtMappingDict,
+            string destDir
+            )
+        {
+            foreach (var file in files)
+            {
+                var filename = Path.GetFileName(file);
+                var devicename = filename.Remove(filename.Length - 19);
+                var mtFolderExists = mtMappingDict.TryGetValue(devicename, out var mtFolder);
+                if (mtFolderExists)
+                {
+                    var fullDestPath = Path.Combine(destDir, mtFolder, filename);
+                    File.Copy(file, fullDestPath);
+                }
+
+                Console.WriteLine(devicename);
+
+
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
